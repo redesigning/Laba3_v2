@@ -15,5 +15,3 @@ const Matrix4f* Pipeline::GetTrans()
     m_transformation = PersProjTrans * CameraRotateTrans * CameraTranslationTrans * TranslationTrans * RotateTrans * ScaleTrans;
     return &m_transformation;
 }
-
-
